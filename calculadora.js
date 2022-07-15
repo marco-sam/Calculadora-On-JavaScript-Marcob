@@ -61,6 +61,7 @@ function potencia(){
     nova();
 }
 
+    // Function to loop function Calculadora
 function nova(){
     let opcao = prompt('Deseja realizar uma nova operação? \n1 - sim\n2 - Não');
 
@@ -75,6 +76,8 @@ function nova(){
 }
 
 /*
+Edit with If Else Option
+
 if(operacao == 1){
     soma();
 }else if(operacao ==2){
@@ -89,6 +92,7 @@ if(operacao == 1){
     potencia();
             }
 */
+// Edit with Switch Case    
 switch (operacao){
     case 1:
         soma();
